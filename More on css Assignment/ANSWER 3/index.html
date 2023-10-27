@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        .navbar{
+            background-color: rgb(126, 126, 252); 
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style-type: none;
+            margin: 16px 3px;
+        }
+        .navbar li a{
+            padding: 3px 3px ;
+            color: white;
+            padding-left: 25px;
+        }
+        .navbar li a:hover{
+            color: black;
+        }
+        .dotted{
+            border-style: ridge;
+        }
+        .solid{
+            border-style: inset;
+        }
+        .double{
+            border-style: double;
+        }
+        .inset{
+            border-style: dotted;
+        }
+        .dashed{
+            border-style: dashed;
+        }
+        .groove {
+            border-style: dotted dashed solid double;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="dotted"> <a href="#">Home</a> </li>
+            <li class="solid"> <a href="#">About Us</a> </li>
+            <li class="double"> <a href="#">Contact</a> </li>
+            <li class="inset"> <a href="#">Blog</a> </li>
+            <li class="dashed"> <a href="#">Login</a></li>
+            <li class="groove"> <a href="#">Custom Link</a> </li>
+
+        </ul>
+    </nav>
+</body>
+</html>

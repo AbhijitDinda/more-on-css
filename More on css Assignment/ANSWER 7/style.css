@@ -1,0 +1,21 @@
+.container{
+    margin: auto;
+    border-radius: 10px;
+    width: 28%;
+    background-color: rgb(255, 230, 5);
+    opacity: 1;
+}
+.box{
+    padding: 10px;
+    font-size: 20px;
+}
+img{
+    border-radius: 10px;
+    width: 356px;
+    display: block;
+    margin: auto;
+}
+
+.container:hover{
+    opacity: 0.6;
+}

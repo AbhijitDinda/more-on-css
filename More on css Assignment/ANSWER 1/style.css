@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgb(126, 126, 252); 
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+    margin: 16px 3px;
+}
+.navbar li a{
+    padding: 3px 3px ;
+    color: white;
+    padding-left: 25px;
+}
+.navbar li a:hover{
+    color: black;
+}
